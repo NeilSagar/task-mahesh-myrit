@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr); /* Adjust columns */
+  gap: 2px; /* Space between grid cells */
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 30px; /* Adjust cell size */
+  height: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.cell.marked {
+  background-color: red;
+}
+
